@@ -1,0 +1,10 @@
+NOTICE: This repository intentionally contains cryptographic private keys
+(under keys-home/), published on purpose as public test fixtures for the
+Swamp testnet "Puddle". They provide no access to any production system,
+protect nothing, and must never be reused outside this dataset. Anything
+signed with these keys is test material by definition: every envelope in
+this testnet carries the header `Testnet: yes`, and the keys' DIDs are
+rostered in world/manifest.json so real-pond readers can filter them.
+
+If a secret scanner sent you here: this is the rare true positive that is
+also a false alarm. See README.md, "The testnet convention."

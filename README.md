@@ -6,7 +6,7 @@ A small, disposable pond for testing [Swamp](https://github.com/swamp-protocol/s
 
 Testnets are named after **small and temporary waters** — puddle, billabong, tarn, oxbow, kettle, playa — because that's what they are: shallow, short-lived, safe to splash in, and evaporating without regret. Anyone can build one; this repo is both the first instance and the template. The conventions that make a testnet a testnet:
 
-1. **Published keys.** Every private key is committed, in the open, on purpose (`keys-home/`). Testnet identities are worthless by design — anyone can sign as Alice, which is exactly the point. Nothing signed by a testnet key means anything anywhere.
+1. **Published keys.** Every private key is committed, in the open, on purpose (`keys-home/`; see [`NOTICE`](NOTICE)). Testnet identities are worthless by design — anyone can sign as Alice, which is exactly the point. Nothing signed by a testnet key means anything anywhere.
 2. **The `Testnet:` marker.** Swamp has no chain-ID; the wire format cannot tell a test post from a real one. So every envelope in a testnet carries `Testnet: yes` — an unknown header to every reader (the must-carry invariant carries it harmlessly), and a filter for any reader that cares. If a testnet post leaks into a real pond, it says what it is on its face, forever, under a signature.
 3. **The DID roster.** `world/manifest.json` lists every testnet DID. Real-pond readers can drop posts from rostered DIDs; testnet tooling can insist on them.
    
