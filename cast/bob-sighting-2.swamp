@@ -1,0 +1,13 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Bob
+DID: @@DID_BOB@@
+Message-ID: 2026-07-12-08-00-morning-sightings-b1c5
+Date: 2026-07-12T08:00-0700
+Testnet: yes
+Subject: Morning sightings
+Feed: https://bob.example.net/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+
+mine      @@DID_BOB@@/@@CID_bob-post-2@@
+positive  @@DID_DANA@@/@@CID_dana-post-2@@
+known     @@DID_ALICE@@/@@CID_alice-post-2@@

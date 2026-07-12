@@ -1,0 +1,120 @@
+#!/usr/bin/env python3
+"""Build the Puddle testnet world from cast/ templates.
+
+Renders @@DID_<NAME>@@ and @@CID_<slug>@@ placeholders, signs everything
+with the published cast keys (keys-home/ — worthless by design), computes
+REAL CIDs (CIDv1 / raw / sha2-256 / base32; `ipfs add --cid-version=1
+--raw-leaves` agrees for single-block files), and writes:
+
+  world/ipfs/<cid>          post bytes, addressable by their real CID
+  world/feeds/<name>/latest signed feed-claims (the pollable endpoints)
+  world/following.md        a follow list pointing at the feeds
+  world/manifest.json       slug -> cid map
+
+Build order follows the reference DAG: posts (no refs) -> sightings
+(reference post CIDs) -> feed-claims (reference sighting CIDs).
+
+Usage:
+  scripts/build-world                    # base URL http://localhost:2629
+  TESTNET_BASE=https://... scripts/build-world
+  KISS=/path/to/kiss scripts/build-world
+"""
+
+import base64
+import hashlib
+import json
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+CAST_DIR = ROOT / 'cast'
+KEYS_HOME = ROOT / 'keys-home'
+WORLD = ROOT / 'world'
+KISS = os.environ.get('KISS', 'kiss')
+BASE = os.environ.get('TESTNET_BASE', 'http://localhost:2629').rstrip('/')
+FEED_OWNERS = ['alice', 'bob']  # cast members whose feeds this testnet serves
+
+
+def cid_of(data: bytes) -> str:
+    digest = hashlib.sha256(data).digest()
+    return 'b' + base64.b32encode(bytes([1, 0x55, 0x12, 0x20]) + digest).decode().lower().rstrip('=')
+
+
+def kiss(*args):
+    env = dict(os.environ, HOME=str(KEYS_HOME))
+    result = subprocess.run([KISS, *args], env=env, capture_output=True, text=True)
+    if result.returncode != 0:
+        sys.exit(f'kiss {" ".join(args[:2])} failed:\n{result.stderr}')
+    return result.stdout
+
+
+def cast_dids():
+    by_name = {}
+    for meta_path in (KEYS_HOME / '.swamp' / 'keys').glob('*/meta.json'):
+        meta = json.loads(meta_path.read_text())
+        by_name[meta['display_name']] = meta['did']
+    return by_name
+
+
+def main():
+    dids = cast_dids()
+    ipfs_dir = WORLD / 'ipfs'
+    ipfs_dir.mkdir(parents=True, exist_ok=True)
+
+    def render(text, cids):
+        for name, did in dids.items():
+            text = text.replace(f'@@DID_{name.upper()}@@', did)
+        text = text.replace('@@BASE@@', BASE)
+        for slug, cid in cids.items():
+            text = text.replace(f'@@CID_{slug}@@', cid)
+        return text
+
+    def build(template: Path, cids):
+        """Render, sign, hash. Returns (cid, bytes)."""
+        text = render(template.read_text(), cids)
+        if '@@CID_' in text:
+            sys.exit(f'{template.name}: unresolved CID placeholder — check build order')
+        signer = next(l for l in text.split('\n') if l.startswith('DID: '))[5:].strip()
+        tmp = WORLD / f'.{template.name}.tmp'
+        tmp.write_text(text)
+        kiss('sign', '--key', signer, str(tmp))
+        data = tmp.read_bytes()
+        tmp.unlink()
+        return cid_of(data), data
+
+    templates = sorted(CAST_DIR.glob('*.swamp'))
+    posts = [t for t in templates if 'sighting' not in t.name and 'feed-claim' not in t.name]
+    sightings = [t for t in templates if 'sighting' in t.name]
+    claims = [t for t in templates if 'feed-claim' in t.name]
+
+    cids = {}
+    for stage in (posts, sightings):
+        for template in stage:
+            slug = template.name.replace('.swamp', '')
+            cid, data = build(template, cids)
+            cids[slug] = cid
+            (ipfs_dir / cid).write_bytes(data)
+            print(f'{slug} -> {cid}')
+
+    for template in claims:
+        owner = template.name.replace('feed-claim-', '').replace('.swamp', '')
+        cid, data = build(template, cids)
+        cids[template.name.replace('.swamp', '')] = cid
+        (ipfs_dir / cid).write_bytes(data)
+        feed_dir = WORLD / 'feeds' / owner
+        feed_dir.mkdir(parents=True, exist_ok=True)
+        (feed_dir / 'latest').write_bytes(data)
+        print(f'feeds/{owner}/latest -> Latest per claim {cid}')
+
+    (WORLD / 'following.md').write_text(''.join(
+        f'{dids[name]} {BASE}/feeds/{name}/latest\n' for name in FEED_OWNERS))
+    (WORLD / 'manifest.json').write_text(json.dumps(
+        {'base': BASE, 'dids': dids, 'cids': cids}, indent=2) + '\n')
+    print(f'world built for base {BASE}: {len(cids)} artifacts')
+
+
+if __name__ == '__main__':
+    main()

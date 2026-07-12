@@ -1,0 +1,24 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Bob
+DID: did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV
+Message-ID: 2026-07-12-07-45-field-notes-day-two-b3d7
+Date: 2026-07-12T07:45-0700
+Testnet: yes
+Subject: Field notes, day two
+Feed: https://bob.example.net/swamp/latest
+Contact: bsky:bob.example.net
+Content-Type: application/swamp; kind=post; v=0.6.0
+
+Day two of watching the pond. Counted four active feeds this morning,
+up from two. The polling rhythm is what interests me: everyone checks
+everyone else at their own cadence, nobody coordinates, and yet the
+gossip converges within an hour or so. It reminds me of actual frogs —
+no conductor, but the chorus synchronizes anyway. One oddity worth
+logging: a feed that answered yesterday went quiet today, and my reader
+just shrugged and kept the old head. Nothing broke. Systems that degrade
+politely are rarer than they should be. More observations tomorrow,
+same log, same pond.
+
+-----BEGIN SIGNATURE-----
+4UwLgOyQaX5958V/19f2JY7ZyXBRdb6RRcrHpAYZeskO9aNYkin2SU+KSKWFMHjnDKC9fr4Ei2YSp1Z22/0mBA==
+-----END SIGNATURE-----

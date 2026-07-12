@@ -1,0 +1,5 @@
+#!/bin/sh
+# Serve the built world at http://localhost:2629 for local clients.
+cd "$(dirname "$0")/../world" || { echo "no world/ — run scripts/build-world first"; exit 1; }
+echo "Puddle testnet → http://localhost:2629 (feeds at /feeds/<name>/latest)"
+exec python3 -m http.server 2629 --bind 127.0.0.1

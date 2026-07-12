@@ -1,0 +1,14 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2
+Message-ID: 2026-07-12-10-05-feed-claim
+Date: 2026-07-12T10:05-0700
+Testnet: yes
+Feed: http://localhost:2629/feeds/alice/latest
+Latest: bafkreielzsx2aapuvmtftapzmxrbzp2xtdtirbdzai76nisblgu4okviri
+Prev: bafkreih2rqoi5kjsdlencp4ygndao4crtmeg54eknm5xkxmzetzqk45cde
+Content-Type: application/swamp; kind=feed-claim; v=0.6.0
+
+-----BEGIN SIGNATURE-----
+33UKJsNBzwspEHFWAoM5qLb1Y/f9+BtfmELpHPY8OxixpKfGUY/b/jlg1OdFQHDEacFjb7WZ2jn/rAUKwNDlAA==
+-----END SIGNATURE-----

@@ -1,0 +1,14 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Bob
+DID: did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV
+Message-ID: 2026-07-12-08-05-feed-claim
+Date: 2026-07-12T08:05-0700
+Testnet: yes
+Feed: http://localhost:2629/feeds/bob/latest
+Latest: bafkreibx4ret3jhrjkr6r4j6rlfmmqbvcmjw7jfjoua6l5k3m4knahtbqm
+Prev: bafkreidbwzilg4pj2ba7je3ud3dbjxu673wn4quocc6fogllwe63z4k4hm
+Content-Type: application/swamp; kind=feed-claim; v=0.6.0
+
+-----BEGIN SIGNATURE-----
+lj5YyWMKwGp1yTgCv7+IuSAk7rhLKPRo348d0CwH5BJrzhCj0Z7jMdKNpePO+pfEfeMbMQsfUWvpjpO65cWSDQ==
+-----END SIGNATURE-----

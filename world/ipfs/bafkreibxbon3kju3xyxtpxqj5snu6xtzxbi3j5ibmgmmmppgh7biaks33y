@@ -1,0 +1,61 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Carol
+DID: did:key:z6MkkeUit63G1NC73c1NP2Wzav5xjzAcTEumDL7bkDr4DF4f
+Message-ID: 2026-07-12-09-30-gossip-as-infrastructure-c8b2
+Date: 2026-07-12T09:30-0700
+Testnet: yes
+Subject: Gossip as infrastructure
+Feed: https://carol.example.org/swamp/latest
+Content-Type: application/swamp; kind=post; v=0.6.0
+Content-Language: en
+
+The word "gossip" does a lot of quiet work in this protocol, and I want
+to spend a few hundred words saying why I think it's the right word and
+not just a cute one.
+
+Most social systems treat distribution as a routing problem: get the
+message from the author to the audience, as fast and as completely as
+possible. The feed is a pipe. The platform's job is to keep the pipe
+full, and the pathologies follow directly — if the pipe must be full,
+someone will decide what fills it, and that someone will not be you.
+
+Gossip works differently, and everyone already knows how, because
+everyone has lived in a village, a family, an office. Nobody hears
+everything. News reaches you because someone who cares about you, or
+about the news, chose to repeat it. Every repetition is a small act of
+judgment: this is worth your time, and I am willing to be known as the
+person who passed it along. The signature on the act matters more than
+the speed of it. Gossip is slow, lossy, and redundant — and it is also
+the only distribution system in history that runs entirely on trust
+relationships, needs no operator, and cannot be bought as a whole.
+
+Sightings formalize exactly that and nothing more. When I publish a
+sighting, I am not forwarding bytes; the bytes can take care of
+themselves, content-addressed, pinned by whoever cares. What I am
+publishing is the judgment: I saw this, and here is why it appears in
+my list. The five whys are deliberately thin — mine, known, neutral,
+positive, negative — because thick vocabularies invite performance.
+Anyone who has watched a reaction-emoji palette bloat into a personality
+test knows where that road ends. A thin vocabulary keeps the act honest:
+the richness lives in who said it, not in which button they pressed.
+
+What I find genuinely new here is that the reader reconstructs the
+verdict. No algorithm totals the sightings and hands you a score. You
+walk the gossip yourself, you see who vouched for what, and you weigh
+Alice's positive differently from a stranger's, exactly as you would in
+a kitchen conversation. The protocol refuses to do your trusting for
+you. That refusal is the feature. Every system that offered to do our
+trusting for us has ended up doing our thinking for us, and the record
+of that experiment is not good.
+
+So: gossip as infrastructure. Not a metaphor, an architecture. The pipes
+are boring and content-addressed; the judgment travels signed, in the
+open, one relationship at a time. It will never trend. I think that is
+precisely the point, and I notice I keep coming back to write here
+anyway — which is, I suppose, a sighting of its own kind. The pond is
+small. The water is clear. You can see all the way down, and nothing is
+hiding on the bottom.
+
+-----BEGIN SIGNATURE-----
+bji+Li6cawXTdAFbYJ/dmgtuyPIixB4VRLyOCsI1WDyKLOtsJW0xolyPzrspfwRMANyMfL0mxY+dLH3HtgXlCg==
+-----END SIGNATURE-----

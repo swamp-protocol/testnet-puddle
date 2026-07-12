@@ -1,0 +1,11 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: @@DID_ALICE@@
+Message-ID: 2026-07-10-09-20-founding-sighting-a1c7
+Date: 2026-07-10T09:20-0700
+Testnet: yes
+Subject: Founding sighting
+Feed: https://alice.example.com/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+
+mine      @@DID_ALICE@@/@@CID_alice-post-1@@

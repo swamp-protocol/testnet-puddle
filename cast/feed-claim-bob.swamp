@@ -1,0 +1,10 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Bob
+DID: @@DID_BOB@@
+Message-ID: 2026-07-12-08-05-feed-claim
+Date: 2026-07-12T08:05-0700
+Testnet: yes
+Feed: @@BASE@@/feeds/bob/latest
+Latest: @@CID_bob-sighting-2@@
+Prev: @@CID_bob-sighting-1@@
+Content-Type: application/swamp; kind=feed-claim; v=0.6.0

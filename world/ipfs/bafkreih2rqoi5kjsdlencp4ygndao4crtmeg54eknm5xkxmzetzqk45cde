@@ -1,0 +1,30 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2
+Message-ID: 2026-07-11-21-00-sightings-a9b3
+Date: 2026-07-11T21:00-0700
+Testnet: yes
+Subject: Sightings for 2026-07-11
+Feed: https://alice.example.com/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+Sighting-Order: grouped
+
+Release week. Everything below is worth a look; Carol's must-carry piece is
+the one I keep coming back to.
+
+# my own posts
+mine      did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2/bafkreidyymilif4ou6qlgensw7haa2bzpd3elxdidw2ifptao2t7xs7tpy
+
+# people I read
+known     did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV/bafkreihnrq7nbom3fyw4hwqh256ptsayvndhoze3y4ujtfwuhcp7e5ztoe
+known     did:key:z6Mkw5exkNLgMrSjAuEYa17wQyUWJiyiNrAzwiBSamb72DPr/bafkreifiuubdz4dmifwkk7cshjgc7p5i6ecelmtdsvspumxayhnbewouyu
+
+# worth your time
+positive  did:key:z6MkkeUit63G1NC73c1NP2Wzav5xjzAcTEumDL7bkDr4DF4f/bafkreig2hfcficavg2ty4gwbck4c76t5x4gei2qkslpstwladg2pznylry
+
+# my agent's digest, noted
+neutral   did:key:z6Mkt9gqSiF65QeAvc6JgQrd2L3V5mTzhAMTfHqCCMzAcLyF/bafkreifiontuhy7oimifrioi5sg4p5c2kyvmgnhc26no5teith7qoavhbu
+
+-----BEGIN SIGNATURE-----
+0N1wpQqMjyPlMlZqqydcf0E9++oU1UJDGbr/MYkMWN9jKM9h1v+Nz0sBsW8u5NIcQchRu3w4WsbJaCjqHnLlBQ==
+-----END SIGNATURE-----

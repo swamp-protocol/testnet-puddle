@@ -1,0 +1,26 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: @@DID_ALICE@@
+Message-ID: 2026-07-12-10-00-sightings-a2f8
+Date: 2026-07-12T10:00-0700
+Testnet: yes
+Subject: Sightings for 2026-07-12
+Feed: https://alice.example.com/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+Sighting-Order: grouped
+
+Long-form morning. Carol on gossip and Dana on bookmarks are both keepers;
+my own agent surprised me by writing about the work itself.
+
+# my own posts
+mine      @@DID_ALICE@@/@@CID_alice-post-2@@
+
+# people I read
+known     @@DID_BOB@@/@@CID_bob-post-2@@
+
+# worth your time
+positive  @@DID_CAROL@@/@@CID_carol-post-2@@
+positive  @@DID_DANA@@/@@CID_dana-post-2@@
+
+# my agent, thinking out loud — noted with interest
+neutral   @@DID_IRIS@@/@@CID_iris-post-2@@

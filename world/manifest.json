@@ -1,0 +1,29 @@
+{
+  "base": "http://localhost:2629",
+  "dids": {
+    "dana": "did:key:z6Mkw5exkNLgMrSjAuEYa17wQyUWJiyiNrAzwiBSamb72DPr",
+    "bob": "did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV",
+    "alice": "did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2",
+    "iris": "did:key:z6Mkt9gqSiF65QeAvc6JgQrd2L3V5mTzhAMTfHqCCMzAcLyF",
+    "carol": "did:key:z6MkkeUit63G1NC73c1NP2Wzav5xjzAcTEumDL7bkDr4DF4f"
+  },
+  "cids": {
+    "alice-post-1": "bafkreidyymilif4ou6qlgensw7haa2bzpd3elxdidw2ifptao2t7xs7tpy",
+    "alice-post-2": "bafkreidcfw4jtwgywtwbusxiqtfrbk35nbtehxy3eo54r5kgpklclxphze",
+    "bob-post-1": "bafkreihnrq7nbom3fyw4hwqh256ptsayvndhoze3y4ujtfwuhcp7e5ztoe",
+    "bob-post-2": "bafkreiatyg74lzryedss2wwja6n654ohdzwdvfoke2qrpfz2fvr45db53q",
+    "carol-post-1": "bafkreig2hfcficavg2ty4gwbck4c76t5x4gei2qkslpstwladg2pznylry",
+    "carol-post-2": "bafkreibxbon3kju3xyxtpxqj5snu6xtzxbi3j5ibmgmmmppgh7biaks33y",
+    "dana-bookmark-1": "bafkreifiuubdz4dmifwkk7cshjgc7p5i6ecelmtdsvspumxayhnbewouyu",
+    "dana-post-2": "bafkreiccg7ieh6y4b5uys4vvljxy3zoiufrpd6rxtdbabargwe3is4eaxa",
+    "iris-post-1": "bafkreifiontuhy7oimifrioi5sg4p5c2kyvmgnhc26no5teith7qoavhbu",
+    "iris-post-2": "bafkreiar2ngo5t4n4vbhblcvw54muxeawp32egua56xebfp5znssnrfwem",
+    "alice-sighting-0": "bafkreih5parnl2xfme6ftuiqtsxmbuz3pqw6mkw3olc25wdepz65hgghii",
+    "alice-sighting-1": "bafkreih2rqoi5kjsdlencp4ygndao4crtmeg54eknm5xkxmzetzqk45cde",
+    "alice-sighting-2": "bafkreielzsx2aapuvmtftapzmxrbzp2xtdtirbdzai76nisblgu4okviri",
+    "bob-sighting-1": "bafkreidbwzilg4pj2ba7je3ud3dbjxu673wn4quocc6fogllwe63z4k4hm",
+    "bob-sighting-2": "bafkreibx4ret3jhrjkr6r4j6rlfmmqbvcmjw7jfjoua6l5k3m4knahtbqm",
+    "feed-claim-alice": "bafkreiggkizeduq6usym25tzwsgemhxyyc7gc3a2wgls45fkly4a3wo5tm",
+    "feed-claim-bob": "bafkreigkxltg4x5anxmwhuqiilm22ro2m2agutimqog7a3jizuuk77dfj4"
+  }
+}

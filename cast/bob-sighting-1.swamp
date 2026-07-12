@@ -1,0 +1,13 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Bob
+DID: @@DID_BOB@@
+Message-ID: 2026-07-11-22-15-evening-sightings-b6a4
+Date: 2026-07-11T22:15-0700
+Testnet: yes
+Subject: Evening sightings
+Feed: https://bob.example.net/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+
+mine      @@DID_BOB@@/@@CID_bob-post-1@@
+positive  @@DID_ALICE@@/@@CID_alice-post-1@@
+positive  @@DID_CAROL@@/@@CID_carol-post-1@@

@@ -1,0 +1,18 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2
+Message-ID: 2026-07-10-09-15-morning-in-the-swamp-a3f2
+Date: 2026-07-10T09:15-0700
+Testnet: yes
+Subject: Morning in the swamp
+Feed: https://alice.example.com/swamp/latest
+Contact: email:alice@example.com
+Content-Type: application/swamp; kind=post; v=0.6.0
+
+First light over the water. The extension mechanism shipped last night, and
+Swamp feels bigger this morning — not because core grew, but because it
+learned how to let everything else grow.
+
+-----BEGIN SIGNATURE-----
+mLhL+xEWpHrstbWerH5J5S4wX/o/JiH8ObfY7GvKz1pGmRjNfDBOP8vzsrET9Yeo1+h7bB8yPgqc/EAKJDXsBQ==
+-----END SIGNATURE-----

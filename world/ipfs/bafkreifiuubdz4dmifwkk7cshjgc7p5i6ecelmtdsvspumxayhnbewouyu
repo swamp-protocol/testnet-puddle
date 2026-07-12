@@ -1,0 +1,19 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Dana
+DID: did:key:z6Mkw5exkNLgMrSjAuEYa17wQyUWJiyiNrAzwiBSamb72DPr
+Message-ID: 2026-07-11-20-00-bookmark-swamp-repo-d2f8
+Date: 2026-07-11T20:00-0700
+Testnet: yes
+Subject: Bookmark: the Swamp spec repo
+Feed: https://dana.example.org/swamp/latest
+Extension: bookmarks git:github.com/swamp-protocol/swamp-bookmarks@v0.1.0
+Content-Type: application/swamp; kind=bookmark; v=0.6.0; ext=bookmarks/0.1
+
+URL: https://github.com/swamp-protocol/swamp
+Title: Swamp Protocol Specification
+Note: The v0.6.0 release with the extension mechanism. Bookmarking from the
+extension that the release itself carved out of core.
+
+-----BEGIN SIGNATURE-----
+jJIkK/bBJf2YIyXYqu6UYpD5pqd1dZUFGFNSrGkzf9WB5GXjkdo7lUWBIk0e76oHjKZVfJvIfKlQaMxAA+ZQAw==
+-----END SIGNATURE-----

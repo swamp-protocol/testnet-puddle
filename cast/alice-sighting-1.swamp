@@ -1,0 +1,26 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: @@DID_ALICE@@
+Message-ID: 2026-07-11-21-00-sightings-a9b3
+Date: 2026-07-11T21:00-0700
+Testnet: yes
+Subject: Sightings for 2026-07-11
+Feed: https://alice.example.com/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+Sighting-Order: grouped
+
+Release week. Everything below is worth a look; Carol's must-carry piece is
+the one I keep coming back to.
+
+# my own posts
+mine      @@DID_ALICE@@/@@CID_alice-post-1@@
+
+# people I read
+known     @@DID_BOB@@/@@CID_bob-post-1@@
+known     @@DID_DANA@@/@@CID_dana-bookmark-1@@
+
+# worth your time
+positive  @@DID_CAROL@@/@@CID_carol-post-1@@
+
+# my agent's digest, noted
+neutral   @@DID_IRIS@@/@@CID_iris-post-1@@

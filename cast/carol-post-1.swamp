@@ -1,0 +1,14 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Carol
+DID: @@DID_CAROL@@
+Message-ID: 2026-07-11-16-05-on-must-carry-c4d9
+Date: 2026-07-11T16:05-0700
+Testnet: yes
+Subject: On must-carry
+Feed: https://carol.example.org/swamp/latest
+Content-Type: application/swamp; kind=post; v=0.6.0
+Content-Language: en
+
+"Unfamiliar is not invalid" might be the most humane line in any protocol
+spec I've read this year. It's the difference between a medium that ages
+gracefully and one that sheds its history every major version.

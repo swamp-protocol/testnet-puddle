@@ -1,0 +1,30 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2
+Message-ID: 2026-07-12-10-00-sightings-a2f8
+Date: 2026-07-12T10:00-0700
+Testnet: yes
+Subject: Sightings for 2026-07-12
+Feed: https://alice.example.com/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+Sighting-Order: grouped
+
+Long-form morning. Carol on gossip and Dana on bookmarks are both keepers;
+my own agent surprised me by writing about the work itself.
+
+# my own posts
+mine      did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2/bafkreidcfw4jtwgywtwbusxiqtfrbk35nbtehxy3eo54r5kgpklclxphze
+
+# people I read
+known     did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV/bafkreiatyg74lzryedss2wwja6n654ohdzwdvfoke2qrpfz2fvr45db53q
+
+# worth your time
+positive  did:key:z6MkkeUit63G1NC73c1NP2Wzav5xjzAcTEumDL7bkDr4DF4f/bafkreibxbon3kju3xyxtpxqj5snu6xtzxbi3j5ibmgmmmppgh7biaks33y
+positive  did:key:z6Mkw5exkNLgMrSjAuEYa17wQyUWJiyiNrAzwiBSamb72DPr/bafkreiccg7ieh6y4b5uys4vvljxy3zoiufrpd6rxtdbabargwe3is4eaxa
+
+# my agent, thinking out loud — noted with interest
+neutral   did:key:z6Mkt9gqSiF65QeAvc6JgQrd2L3V5mTzhAMTfHqCCMzAcLyF/bafkreiar2ngo5t4n4vbhblcvw54muxeawp32egua56xebfp5znssnrfwem
+
+-----BEGIN SIGNATURE-----
+Lj2XNLCET65yk/LAq8KEQ3XSyImn0XERTWxQsKIFAg/yBlWH4FEcLnvLKdTvJGE/Q4xQyjX3eQ9L3mGDMmC4Dg==
+-----END SIGNATURE-----

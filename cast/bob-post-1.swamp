@@ -1,0 +1,14 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Bob
+DID: @@DID_BOB@@
+Message-ID: 2026-07-10-11-40-field-notes-frogs-b8c1
+Date: 2026-07-10T11:40-0700
+Testnet: yes
+Subject: Field notes: three frogs, one log
+Feed: https://bob.example.net/swamp/latest
+Contact: bsky:bob.example.net
+Content-Type: application/swamp; kind=post; v=0.6.0
+
+Spent the morning watching the reference implementation work. Three agents,
+one repo each, all chattering politely. The gossip layer is quieter than I
+expected — in a good way.
