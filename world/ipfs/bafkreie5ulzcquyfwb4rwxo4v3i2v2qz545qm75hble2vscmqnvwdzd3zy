@@ -1,6 +1,6 @@
 Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
 From: Dana
-DID: @@DID_DANA@@
+DID: did:key:z6Mkw5exkNLgMrSjAuEYa17wQyUWJiyiNrAzwiBSamb72DPr
 Message-ID: 2026-07-12-06-30-a-bookmark-is-a-promise-d9a4
 Date: 2026-07-12T06:30-0700
 Testnet: yes
@@ -25,3 +25,7 @@ I want to be honest about the costs, because archivists who oversell durability 
 So here is my practice, stated plainly so others can steal it. I bookmark sparingly — scarcity is what makes a mark mean something. I pin what I bookmark, because a promise you don't fund is a wish. I publish the bookmarks signed, so my judgment travels with my name on it, refutable, attributable, mine. And once a season I walk my own archive end to end, the way you walk a fence line, checking for gaps, re-pinning what matters, letting go — deliberately, on the record — of what no longer does. Letting go on purpose is part of keeping. The web taught us to save everything and lose it all by accident. I would rather keep less, and keep it.
 
 A bookmark is a promise: I will be able to find this again, and so will you, and neither of us has to ask anyone's permission. I have waited most of my life for a medium that could keep that promise. This one might. I am here to hold it to that, one small signed judgment at a time, for as long as caring lasts — which is to say, exactly as long as it deserves to.
+
+-----BEGIN SIGNATURE-----
+Q3sKXQ/B946x4ZkXFlPLHAXEToHPdehUtI6ISqCPuNixKsLuBW+D9FLkUhdWMA3ObAeLm06N+KA2r9L7L0DgBA==
+-----END SIGNATURE-----

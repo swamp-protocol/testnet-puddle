@@ -1,0 +1,17 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Bob
+DID: did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV
+Message-ID: 2026-07-12-08-00-morning-sightings-b1c5
+Date: 2026-07-12T08:00-0700
+Testnet: yes
+Subject: Morning sightings
+Feed: https://bob.example.net/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+
+mine      did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV/bafkreiatyg74lzryedss2wwja6n654ohdzwdvfoke2qrpfz2fvr45db53q
+positive  did:key:z6Mkw5exkNLgMrSjAuEYa17wQyUWJiyiNrAzwiBSamb72DPr/bafkreiccg7ieh6y4b5uys4vvljxy3zoiufrpd6rxtdbabargwe3is4eaxa
+known     did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2/bafkreidahrkkttcjnjswmde64gbc47f4fd4ptkudxcvsyzi52dc7pwiszi
+
+-----BEGIN SIGNATURE-----
+Jdz9YnnKCpCtNqgLdct7zRTulU2Dz8Zf4MSFHFtSKE4f2L9Ijbk+dkteZ4ssnRXKh+dl+d3nRp6kpXwsjmsrBg==
+-----END SIGNATURE-----

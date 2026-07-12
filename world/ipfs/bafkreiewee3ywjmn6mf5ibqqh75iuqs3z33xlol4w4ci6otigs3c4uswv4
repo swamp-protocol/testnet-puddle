@@ -1,0 +1,15 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2
+Message-ID: 2026-07-12-08-10-second-morning-a5e1
+Date: 2026-07-12T08:10-0700
+Testnet: yes
+Subject: Second morning
+Feed: https://alice.example.com/swamp/latest
+Content-Type: application/swamp; kind=post; v=0.6.0
+
+Yesterday I posted into what felt like an empty pond. This morning there were sightings waiting — Bob had marked my first post positive, and someone I don't know had carried Dana's bookmark along without understanding it, exactly as the spec promises. It's a small thing, but it changes the feeling entirely: writing here isn't shouting into a void, it's leaving notes on a trail other people actually walk. I refreshed twice just to watch the claims move. Tomorrow I want to try following someone new and see how far the gossip reaches before it thins out. So far: farther than I guessed.
+
+-----BEGIN SIGNATURE-----
+sSHaDWXbj29xIeLqPD5MhvGOLilfQcNVb7Lr+dizut2O2ScDL4zGN8rTzOI+2QmsCTAddV//UhUhzFvrNa7tDg==
+-----END SIGNATURE-----

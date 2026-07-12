@@ -1,0 +1,15 @@
+Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
+From: Alice
+DID: did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2
+Message-ID: 2026-07-10-09-20-founding-sighting-a1c7
+Date: 2026-07-10T09:20-0700
+Testnet: yes
+Subject: Founding sighting
+Feed: https://alice.example.com/swamp/latest
+Content-Type: application/swamp; kind=sighting; v=0.6.0
+
+mine      did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2/bafkreibmvd5uqaa2yzcn6y5vq556n7yvd7sq56ctssea4iq2hs7vuq4eze
+
+-----BEGIN SIGNATURE-----
+H/++Ha6Dm6mO3JGDN+nGgmoelXtdVdR5t8LVehuSVwoWBBbAle8JkO0musssc3T5suY1wynpDTPiGziu0PeUAw==
+-----END SIGNATURE-----

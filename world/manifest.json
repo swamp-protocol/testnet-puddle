@@ -8,22 +8,22 @@
     "carol": "did:key:z6MkkeUit63G1NC73c1NP2Wzav5xjzAcTEumDL7bkDr4DF4f"
   },
   "cids": {
-    "alice-post-1": "bafkreidyymilif4ou6qlgensw7haa2bzpd3elxdidw2ifptao2t7xs7tpy",
-    "alice-post-2": "bafkreidcfw4jtwgywtwbusxiqtfrbk35nbtehxy3eo54r5kgpklclxphze",
-    "bob-post-1": "bafkreihnrq7nbom3fyw4hwqh256ptsayvndhoze3y4ujtfwuhcp7e5ztoe",
-    "bob-post-2": "bafkreiatyg74lzryedss2wwja6n654ohdzwdvfoke2qrpfz2fvr45db53q",
-    "carol-post-1": "bafkreig2hfcficavg2ty4gwbck4c76t5x4gei2qkslpstwladg2pznylry",
-    "carol-post-2": "bafkreibxbon3kju3xyxtpxqj5snu6xtzxbi3j5ibmgmmmppgh7biaks33y",
+    "alice-post-1": "bafkreibmvd5uqaa2yzcn6y5vq556n7yvd7sq56ctssea4iq2hs7vuq4eze",
+    "alice-post-2": "bafkreidahrkkttcjnjswmde64gbc47f4fd4ptkudxcvsyzi52dc7pwiszi",
+    "bob-post-1": "bafkreibxwjqoqymgptbejlp3eul5evtthqlo7v5rrayagbvzk5y6tzfb2q",
+    "bob-post-2": "bafkreigz2njbcyhcv5swuwiqekahvqnh6gzyvb74kceqiik3tziaxvilji",
+    "carol-post-1": "bafkreiczftvxseyh5vmzt5tl77obnbr5vzi5cpdyokey5cxnumkqydqqri",
+    "carol-post-2": "bafkreib3tto5qppupfiao6bm6udkaujg2oi2dawgnc7nucyw6jfsakyl6u",
     "dana-bookmark-1": "bafkreifiuubdz4dmifwkk7cshjgc7p5i6ecelmtdsvspumxayhnbewouyu",
-    "dana-post-2": "bafkreiccg7ieh6y4b5uys4vvljxy3zoiufrpd6rxtdbabargwe3is4eaxa",
-    "iris-post-1": "bafkreifiontuhy7oimifrioi5sg4p5c2kyvmgnhc26no5teith7qoavhbu",
-    "iris-post-2": "bafkreiar2ngo5t4n4vbhblcvw54muxeawp32egua56xebfp5znssnrfwem",
-    "alice-sighting-0": "bafkreih5parnl2xfme6ftuiqtsxmbuz3pqw6mkw3olc25wdepz65hgghii",
-    "alice-sighting-1": "bafkreih2rqoi5kjsdlencp4ygndao4crtmeg54eknm5xkxmzetzqk45cde",
-    "alice-sighting-2": "bafkreielzsx2aapuvmtftapzmxrbzp2xtdtirbdzai76nisblgu4okviri",
-    "bob-sighting-1": "bafkreidbwzilg4pj2ba7je3ud3dbjxu673wn4quocc6fogllwe63z4k4hm",
-    "bob-sighting-2": "bafkreibx4ret3jhrjkr6r4j6rlfmmqbvcmjw7jfjoua6l5k3m4knahtbqm",
-    "feed-claim-alice": "bafkreiggkizeduq6usym25tzwsgemhxyyc7gc3a2wgls45fkly4a3wo5tm",
-    "feed-claim-bob": "bafkreigkxltg4x5anxmwhuqiilm22ro2m2agutimqog7a3jizuuk77dfj4"
+    "dana-post-2": "bafkreie5ulzcquyfwb4rwxo4v3i2v2qz545qm75hble2vscmqnvwdzd3zy",
+    "iris-post-1": "bafkreihrqrbvejqbgryaify22qffh7d4zcymyn75h63o6hqteqwbkfrpce",
+    "iris-post-2": "bafkreifhioblnuwbqlx6mvhsawxktm6gkpaibgyvevvztnnxjdp2l2ozg4",
+    "alice-sighting-0": "bafkreifadigiwpfu6fjtltkxgpfnjbec4aee4j5dg6qaint2csj2aa5244",
+    "alice-sighting-1": "bafkreifvqez5wjmuvdirup6gzm7h47xocrdditczfwqpprjv2dsmhbcogi",
+    "alice-sighting-2": "bafkreicy24jp5nxbywt3co234cjxfy6jm5mgbqnbdxnasd74aaukbxz72q",
+    "bob-sighting-1": "bafkreib5nh25mpu4jxy42vcbelh3ueiix6i7qhpjmcdsnzqb5zcvmhlesa",
+    "bob-sighting-2": "bafkreifrbxnya5gbkuqk2bqulphevvtjacjo7qbn7iilhtdkwwv7ai4dry",
+    "feed-claim-alice": "bafkreifaeobgzgg4mo7fn2b6ecm63reunpte3zfvryptathnxpukevabry",
+    "feed-claim-bob": "bafkreigqocuc4teer5bhc6e6v72ecwmsfjichfkj4c7t3x2fwvd7wagive"
   }
 }

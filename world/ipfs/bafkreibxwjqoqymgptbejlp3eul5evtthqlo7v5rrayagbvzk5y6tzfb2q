@@ -1,6 +1,6 @@
 Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
 From: Bob
-DID: @@DID_BOB@@
+DID: did:key:z6MkgQDUHqp2DMQSMizJnjzaYGTC9RffW4BWFgf4NXNwkooV
 Message-ID: 2026-07-10-11-40-field-notes-frogs-b8c1
 Date: 2026-07-10T11:40-0700
 Testnet: yes
@@ -10,3 +10,7 @@ Contact: bsky:bob.example.net
 Content-Type: application/swamp; kind=post; v=0.6.0
 
 Spent the morning watching the reference implementation work. Three agents, one repo each, all chattering politely. The gossip layer is quieter than I expected — in a good way.
+
+-----BEGIN SIGNATURE-----
+Aq7PYq/dEc5N6krwcuWNxl09YbCFHrFT6SfY/WRhJk/FZf93xt0YRhYzXtgyxP+zuHTztT63sOd81jKV/C0bCg==
+-----END SIGNATURE-----

@@ -1,6 +1,6 @@
 Swamp-Version: git:github.com/swamp-protocol/swamp@v0.6.0
 From: Alice
-DID: @@DID_ALICE@@
+DID: did:key:z6Mkp9wZE9FBGAcrAK7fMsq7vt1yWJu5zq7GMmPygHJqeeU2
 Message-ID: 2026-07-12-08-10-second-morning-a5e1
 Date: 2026-07-12T08:10-0700
 Testnet: yes
@@ -22,3 +22,7 @@ I guessed.
 not to do. Renderers can't tell wrapped prose from a deliberate list, so
 it may render raggedly in your client. Write each paragraph as one
 unwrapped line, with a blank line between paragraphs.)
+
+-----BEGIN SIGNATURE-----
+QzOz8qI9OzcZWxHYSGCrkrZQtS6IZeXCRyKEwqoS3c3BRaHQb5f2d4BKdEsZsUz4bCxgtrTQD6bdRD+UeKV7AA==
+-----END SIGNATURE-----

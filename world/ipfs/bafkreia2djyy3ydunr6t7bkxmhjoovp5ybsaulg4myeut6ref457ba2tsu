@@ -5,10 +5,10 @@ Message-ID: 2026-07-12-08-05-feed-claim
 Date: 2026-07-12T08:05-0700
 Testnet: yes
 Feed: http://localhost:2629/feeds/bob/latest
-Latest: bafkreifrbxnya5gbkuqk2bqulphevvtjacjo7qbn7iilhtdkwwv7ai4dry
-Prev: bafkreib5nh25mpu4jxy42vcbelh3ueiix6i7qhpjmcdsnzqb5zcvmhlesa
+Latest: bafkreibgbk7xw7kkdovdasv6hymmg4py3knozic3h26737ols7smgiulz4
+Prev: bafkreidbwzilg4pj2ba7je3ud3dbjxu673wn4quocc6fogllwe63z4k4hm
 Content-Type: application/swamp; kind=feed-claim; v=0.6.0
 
 -----BEGIN SIGNATURE-----
-5uQz8DuADfnUJiepqKXF5pJ05pkQttfzBm50BPa6ruSzn4mLHrZoSiNHrz7bUzsBN8uclAzaIFUoVC9AJFX8BQ==
+Qk68RefJ6j5tWlGCiW3HpbqnZU07uGWA6PzDvr9+/WeVxXG+dDy8i5UqsAXomtQxxRVwgz3Xy35xrEIFQUyMBw==
 -----END SIGNATURE-----

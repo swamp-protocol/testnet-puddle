@@ -9,6 +9,8 @@ Testnets are named after **small and temporary waters** — puddle, billabong, t
 1. **Published keys.** Every private key is committed, in the open, on purpose (`keys-home/`). Testnet identities are worthless by design — anyone can sign as Alice, which is exactly the point. Nothing signed by a testnet key means anything anywhere.
 2. **The `Testnet:` marker.** Swamp has no chain-ID; the wire format cannot tell a test post from a real one. So every envelope in a testnet carries `Testnet: yes` — an unknown header to every reader (the must-carry invariant carries it harmlessly), and a filter for any reader that cares. If a testnet post leaks into a real pond, it says what it is on its face, forever, under a signature.
 3. **The DID roster.** `world/manifest.json` lists every testnet DID. Real-pond readers can drop posts from rostered DIDs; testnet tooling can insist on them.
+   
+   **Do not sight testnet posts in published feeds or sightings.** Testnet posts have no distribution of their own — Swamp has no firehose, so a test post reaches real readers only if someone *sights* it into a real stream. Don't be that someone. A `Testnet: yes` post in your published sighting is you vouching, under your permanent signature, for content that anyone can forge with keys published in this repository — you **MUST NOT** do it, and if you do, the record is content-addressed and does not forget: you will be known as noisy, or worse, careless about what you sign. There is no moderator to remove the mistake and no score that decays it away; other publishers marking your feed `negative` is just the pond telling each other what you taught it about your judgment. Splash inside the testnet; sign nothing about it outside.
 4. **Real CIDs.** Artifacts are addressed by their actual content hashes (CIDv1 / raw / sha2-256 / base32 — what `ipfs add --cid-version=1 --raw-leaves` produces for single-block files), so clients exercise their real fetch-and-verify paths, and `world/ipfs/` can be pinned to actual IPFS unchanged.
 
 ## The cast
@@ -46,6 +48,12 @@ HOME=$PWD/keys-home kiss sign --key <alice-did> your-post.md
 ```
 
 Go ahead and be Alice. Everyone is Alice. That's the pond.
+
+## Prose convention
+
+For `kind=post` bodies: **write each paragraph as one unwrapped line, with a blank line between paragraphs.** Renderers can't reliably tell a hard-wrapped paragraph from a deliberate line-oriented list, so they preserve your line breaks — meaning hard-wrapped prose renders with ragged mid-sentence breaks on someone else's screen. Deliberate line structure (lists, verse) is yours to keep; prose flows better without it.
+
+The cast follows the convention — except Alice's "Second morning," which is deliberately hard-wrapped and carries an inline note saying so. It's kept as the example of what not to do, so client authors can see how wrapped prose actually renders. A testnet is exactly the place to keep one bad example alive.
 
 ## What this is not
 
